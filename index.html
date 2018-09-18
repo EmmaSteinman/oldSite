@@ -1,1 +1,81 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fun Quiz!</title>
+
+</head>
+<body style="background-color:DeepPink">
+    <script>
+        var testScore = 0;
+        function rightAnswer(){
+            testScore+=1;
+        }
+        function checkScore(){
+            testScore *= 20;
+            if (testScore==100){
+                alert("100%! Amazing!");
+            }
+            else if (testScore==90){
+                alert("90%! Great job!");
+            }
+            else if (testScore==80){
+                alert("80%, nice!");
+            }
+            else if (testScore==70){
+                alert("70%, good job.");
+            }
+            else if (testScore==60){
+                alert("60%, nice try");
+            }
+            else{
+                alert("eh, maybe try again.");
+            }
+        }
+
+    </script>
+    <h1 style="color:LightGray">Fun Quiz!</h1>
+    <h2>1. What is my name?</h2>
+    <button onclick="rightAnswer()" style="background-color:Aquamarine;border:none">Athena</button>
+    <button style="background-color:Aquamarine;border:none">Minerva</button>
+    <button style="background-color:Aquamarine;border:none">Jeff</button>
+    <h2>2. How old am I?</h2>
+    <button style = "background-color:DarkViolet;border:none">18</button>
+    <button onclick="rightAnswer()" style = "background-color:DarkViolet;border:none">19</button>
+    <button style="background-color:DarkViolet;border:none">20</button>
+    <h2>3. What is 5*5?</h2>
+    <button style = "background-color:Turquoise;border:none">10</button>
+    <button style="background-color:Turquoise">1</button>
+    <button onclick="rightAnswer()" style="background-color:Turquoise">25</button>
+    <h2>4. What is 3-2?</h2>
+    <button onclick="rightAnswer()" style="background-color:Violet">1</button>
+    <button style="background-color:Violet">6</button>
+    <button style="background-color:Violet">5</button>
+    <h2>5. What is the best kind of dog?</h2>
+    <button style="background-color:GreenYellow">Lab</button>
+    <button onclick="rightAnswer()" style="background-color:GreenYellow">Bernese Mountian Dog!!!</button>
+    <button style="background-color:GreenYellow">Poodle</button>
+
+    <h2> check score!</h2>
+    <button onclick="checkScore()" style="background:GreenYellow">check score</button>
+    <input type = "text" name="answer2" id="answer2">
+    <button onclick="answer2()">check answer</button>
+
+    <script>
+        function answer2(){
+            //alert("hi");
+            var answer2 = document.getElementById("answer2").value;
+            if (answer2=="cake"){
+                alert("correct");
+            }
+        }
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>
