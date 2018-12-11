@@ -4,14 +4,14 @@
     border:1px;
     text-align:center;
     justify-content: center;
-    font-family: "Raleway";
+    font-family: "Trebuchet MS";
     color:lightpink;
     font-size:10vw;
 }
 .header2{
     text-align:center;
     justify-content: center;
-    font-family: "Raleway";
+    font-family: "Trebuchet MS";
     color:lightpink;
     font-size:4vw;
 }
@@ -22,7 +22,7 @@
     border:1px;
     text-align:center;
     justify-content: center;
-    font-family: "Raleway";
+    font-family: "Trebuchet MS";
     color:lightpink;
     font-size:6vw;
 }
@@ -47,7 +47,7 @@
     height:100px;
     color:aqua;
     background-color:black;
-    font-family:"Raleway";
+    font-family:"Trebuchet MS";
 }
 
 .box {
@@ -56,7 +56,7 @@
     margin:2%;
     color:hotpink;
     font-size:5vw;
-    font-family:"Raleway";
+    font-family:"Trebuchet MS";
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -108,6 +108,13 @@
 
 .text {
     text-align:center;
-    font-family:"Raleway";
+    font-family:"Trebuchet MS";
     font-size:2vw;
+}
+
+.foot {
+    text-align:center;
+    font-family:"Trebuchet MS";
+    color: lightpink;
+    font-size:12px;
 }
